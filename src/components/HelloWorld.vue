@@ -112,9 +112,12 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="less" scoped>
 h3 {
-  margin: 40px 0 0;
+  margin: 2px 0 0;
+  font-size: 40px;
+  border-radius: 2px;
+  // border: 1px solid #ccc;
 }
 ul {
   list-style-type: none;
